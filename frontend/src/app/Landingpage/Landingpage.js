@@ -13,6 +13,7 @@ const Landingpage = () => {
     <>
     <Navbar/>
     <Herosection/>
+    
     <Recentjobs/>
     <Browse/>
     <Goodlife/>
