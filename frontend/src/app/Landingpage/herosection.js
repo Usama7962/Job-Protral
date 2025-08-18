@@ -26,8 +26,8 @@ const HeroSection = () => {
             className="rounded-md text-gray-500 w-full px-4 py-2"
           />
 
-          <select className="text-gray-500 w-full px-4 py-2 rounded-md">
-            <option value="" disabled selected>
+          <select defaultValue="" className="text-gray-500 w-full px-4 py-2 rounded-md">
+            <option value="" disabled>
               Select a location
             </option>
             <option value="new-york">New York</option>
@@ -38,8 +38,8 @@ const HeroSection = () => {
             <option value="karachi">Karachi</option>
           </select>
 
-          <select className="rounded-md text-gray-500 w-full px-4 py-2">
-            <option value="" disabled selected>
+          <select defaultValue="" className="rounded-md text-gray-500 w-full px-4 py-2">
+            <option value="" disabled>
               Select a category
             </option>
             <option value="design">Design</option>

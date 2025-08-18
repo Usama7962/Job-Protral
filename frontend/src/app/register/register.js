@@ -21,7 +21,7 @@ const Register = () => {
         password,
       });
       alert(res.data.message || "Registration successful!");
-      router.push("/login"); // ✅ yahan redirect karna h
+      router.push("/Landingpage"); // ✅ yahan redirect karna h
     } catch (error) {
       alert(error.response?.data?.message || "Error signing up");
     }

@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "vercel-build": "npm run build"
   },
   "dependencies": {
     "@floating-ui/react": "^0.27.15",
@@ -17,11 +18,10 @@
     "leaflet": "^1.9.4",
     "next": "15.4.5",
     "rc-slider": "^11.1.8",
-    "react": "^19.0.0-rc.1",
-    "react-dom": "^19.0.0-rc.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
     "react-icons": "^5.5.0",
     "react-leaflet": "^5.0.0-rc.2",
-    "react-simple-maps": "^3.0.0",
     "react-toastify": "^11.0.5",
     "rizzui": "^1.0.1"
   },
